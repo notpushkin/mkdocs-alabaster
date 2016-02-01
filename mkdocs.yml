@@ -5,7 +5,7 @@ copyright: 2016 Alexander Pushkov
 pages:
   - Home: index.md
   - User Guide: guide.md
-  - License: 'about/license.md'
+  - License: license.md
 
 markdown_extensions:
   - toc:

@@ -33,7 +33,7 @@ Set `markdown_extensions.toc.permalink` to `"¶"` to add permalinks to the heade
 
 Relative path (from `$PROJECT/docs/`) to a logo image, which will appear in the upper left corner above the name of the project.
 
-> If logo is not set, your project name setting (from the top level Sphinx config) will be used in a text header instead. This preserves a link back to your homepage from inner doc pages.
+> If logo is not set, your project name setting (from the MkDocs config) will be used in a text header instead. This preserves a link back to your homepage from inner doc pages.
 
 #### `extra.logo_name`
 
@@ -59,7 +59,7 @@ extra:
 
 ### `extra.show_powered_by`
 
-Show “Powwered by” message, mentioning MkDocs and this theme. Default: true.
+Show “Powered by” message, mentioning MkDocs and this theme. Default: true.
 
 ### Example
 
