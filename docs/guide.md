@@ -105,6 +105,23 @@ extra:
     - search
 ```
 
+### Navigation sidebar
+
+The table of contents sidebar includes only the current page's headings. If you
+want to have the global navigation in the menu, use an alternative sidebar
+called `navigation`:
+
+```yaml
+extra:
+  sidebars:
+    - about
+    - navigation
+    - related
+    - search
+```
+
+This is a port of the original Alabaster theme's sidebar of the same name.
+
 ### Example
 
 ```yaml
