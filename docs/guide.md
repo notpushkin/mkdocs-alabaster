@@ -57,9 +57,70 @@ extra:
     Fork me on GitHub: https://github.com/iamale/rock-cli
 ```
 
-### `extra.show_powered_by`
+#### `extra.show_powered_by`
 
 Show “Powered by” message, mentioning MkDocs and this theme. Default: true.
+
+#### `extra.sidebars`
+
+Specify sidebars shown in the left menu. By default, the following ones are
+shown, top to bottom:
+
+  - `about`: logo and title (`sidebars/about.html`)
+  - `toc`: current page table of contents (`sidebars/toc.html`)
+  - `related`: links to the previous and next pages (`sidebars/related.html`)
+  - `search`: quick search (`sidebars/search.html`)
+
+To add your own sidebar, put its template in `$THEME_DIR/sidebars` and add its
+name to `extra.sidebars`:
+
+```yaml
+extra:
+  sidebars:
+    - about
+    - toc
+    - my-awesome-sidebar # corresponds to `$THEME_DIR/sidebars/my-awesome-sidebar.html`
+    - related
+    - search
+```
+
+#### `extra.homepage_sidebars`
+
+List of sidebar names shown in the left menu *on the homepage only*.
+By default, the following sidebars are shown, top to bottom:
+
+  - `about`: logo and title (`sidebars/about.html`)
+  - `search`: quick search (`sidebars/search.html`)
+
+As you see, homepage is a little special as it doesn't have `toc` and `related`
+sidebars by default. The option `extra.homepage_sidebars` lets you easily
+override this behavior:
+
+```yaml
+extra:
+  homepage_sidebars:
+    - about
+    - toc
+    - related
+    - search
+```
+
+### Navigation sidebar
+
+The table of contents sidebar includes only the current page's headings. If you
+want to have the global navigation in the menu, use an alternative sidebar
+called `navigation`:
+
+```yaml
+extra:
+  sidebars:
+    - about
+    - navigation
+    - related
+    - search
+```
+
+This is a port of the original Alabaster theme's sidebar of the same name.
 
 ### Example
 

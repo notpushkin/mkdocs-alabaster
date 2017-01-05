@@ -53,12 +53,15 @@
     </div>
     <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
       <div class="sphinxsidebarwrapper">
-        {% include "sidebars/about.html" %}
-        {% if nav.homepage.url != "." %}
-          {% include "sidebars/toc.html" %}
-          {% include "sidebars/related.html" %}
+        {% if nav.homepage.url == "." %}
+          {% for sidebar in theme.homepage_sidebars %}
+            {% include "sidebars/%s.html" % sidebar %}
+          {% endfor %}
+        {% else %}
+          {% for sidebar in theme.sidebars %}
+            {% include "sidebars/%s.html" % sidebar %}
+          {% endfor %}
         {% endif %}
-        {% include "sidebars/search.html" %}
       </div>
     </div>
     <div class="clearer"></div>
