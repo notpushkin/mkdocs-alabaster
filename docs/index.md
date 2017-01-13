@@ -5,6 +5,9 @@ Original Alabaster is a visually (c)lean, responsive, configurable theme for the
 
 This is a port of Alabaster for the [MkDocs](http://www.mkdocs.org/) static site generator.
 
+## Github repository
+
+<https://github.com/iamale/mkdocs-alabaster>
 
 ## Features
 
