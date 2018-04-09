@@ -1,5 +1,6 @@
 <h2>Navigation</h2>
 
+{#
 {% macro nav_tree(nav) -%}
   <ul>
   {% for nav_item in nav %}
@@ -17,3 +18,4 @@
   </ul>
 {%- endmacro %}
 {{ nav_tree(nav) }}
+#}
