@@ -1,5 +1,3 @@
-# License
-
 Copyright &copy; 2018 Alexander Pushkov and [contributors].
 
 Based on original work copyright &copy;&nbsp;2016 Jeff Forcier,

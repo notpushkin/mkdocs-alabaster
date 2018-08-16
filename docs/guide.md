@@ -22,12 +22,15 @@ theme: alabaster
 
 That's it! You now have the standard Alabaster theme set up. Read on for more configuration options/concerns.
 
+[pipsi]: https://github.com/mitsuhiko/pipsi
+
+
 ### Permalinks
 
 Set `markdown_extensions.toc.permalink` to `"¶"` to add permalinks to the headers (visible on hover). “¶” is the default symbol used by Sphinx, you can use something else if you want.
 
-### Theme options
 
+### Theme options
 
 #### `extra.logo`
 
@@ -121,6 +124,7 @@ extra:
 ```
 
 This is a port of the original Alabaster theme's sidebar of the same name.
+
 
 ### Example
 
