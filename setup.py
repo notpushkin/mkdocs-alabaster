@@ -2,7 +2,7 @@ import os
 import sys
 from setuptools import setup, find_packages
 
-__version__ = "0.7.5"
+__version__ = "0.7.6"
 
 if sys.argv[-1] == 'publish':
     os.system("python3 setup.py sdist bdist_wheel")
