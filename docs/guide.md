@@ -87,6 +87,10 @@ extra:
     - search
 ```
 
+#### `extra.homepage_nav`
+
+Show navigation tree on homepage. Default: true.
+
 #### `extra.homepage_sidebars`
 
 List of sidebar names shown in the left menu *on the homepage only*.
