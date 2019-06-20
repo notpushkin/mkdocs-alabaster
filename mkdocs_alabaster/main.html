@@ -44,7 +44,7 @@
         <div class="body" role="main">
           {% block content %}
             {{ page.content }}
-            {% if page.is_homepage %}
+            {% if page.is_homepage and theme.homepage_nav %}
               {% include "inc/homepage_nav.html" %}
             {% endif %}
           {% endblock %}
