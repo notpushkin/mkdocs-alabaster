@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mkdocs-alabaster"
-version = "0.7.7"
+version = "0.8.0"
 description = "Alabaster port for MkDocs"
 authors = ["Alexander Pushkov <alexander@notpushk.in>"]
 readme = "README.md"
