@@ -8,6 +8,7 @@ theme:
 nav:
   - Home: index.md
   - User Guide: guide.md
+  - Developer Guide: dev.md
   - License: license.md
 
 markdown_extensions:
