@@ -2,13 +2,14 @@ language: python
 python:
   - 3.6
 
+if: tag IS present
+
 install:
   - curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
   - export PATH=$PATH:~/.poetry/bin
   - poetry install
 
 script:
-  # TODO: perhaps add some linting here
   - "true"
 
 deploy:
