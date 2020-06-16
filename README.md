@@ -1,3 +1,8 @@
+## Deprecated
+
+For new projects, use [Sphinx](https://www.sphinx-doc.org/) with [recommonmark](https://github.com/readthedocs/recommonmark).
+
+
 # Alabaster for MkDocs
 
 1. `pip install mkdocs-alabaster`
